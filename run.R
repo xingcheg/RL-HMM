@@ -4,9 +4,9 @@
 ## Please use server to run the 200 replicates simultaneously.
 ## Bootstrap (by resampling) is omitted to save space .
 
-source("algo_funcs/simulation_funcs.R")
-source("algo_funcs/forward_backward_passing.R")
-source("algo_funcs/RL_HMM_algo.R")
+source("simulation_funcs.R")
+source("forward_backward_passing.R")
+source("RL_HMM_algo.R")
 
 
 slurm_id <- as.integer(Sys.getenv("SGE_TASK_ID"))
