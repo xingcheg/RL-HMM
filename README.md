@@ -3,6 +3,8 @@
 
 R code for the simulation study (Case I, n=100, T=100, method = 'RL-HMM') from the paper "Reinforcement Learning with Hidden Markov Models for Discovering Decision-Making Dynamics". by Xingche Guo, Donglin Zeng, and Yuanjia Wang.
 
+<img src="RL-HMM diagram.png" alt="Model Structure" width="800"/>
+
 
 ## Overview
 
